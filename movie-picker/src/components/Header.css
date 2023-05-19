@@ -249,3 +249,7 @@ a {
   left: 60px;
   top: 850px;
 }
+.img {
+  width: 160px;
+  height: auto;
+}

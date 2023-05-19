@@ -1,13 +1,13 @@
 import {Link} from 'react-router-dom';
 import './Header.css';
 import test from "./images/logo.png";
-
 // import './components/images/logo.png';
 
 const Header = () => {
     return (
         <div className="header">
             <div className="rectangle-25"> </div>
+            <img src="logoreal.png" class="img" />
             {/* <img src={require("./images/logo.png")} alt="Capital One Logo" /> */}
             {/* <img src={test}alt="Logo"/> */}
             {/* <img className="transparent-image" src="https://www.nicepng.com/png/detail/63-638693_capital-one-logo-white.png" alt="Capital One Logo" /> */}
