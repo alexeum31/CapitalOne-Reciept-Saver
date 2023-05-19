@@ -79,8 +79,8 @@ body {
 
 
 .links {
-  margin-top: 90px;
-  margin-bottom: -20px;
+  margin-top: 20px;
+  margin-bottom: -30px;
   display: grid;
   align-items: center;
   font-family: 'Roboto', sans-serif;
@@ -89,9 +89,9 @@ body {
 }
 
 a {
-  margin-bottom: -150px;
-  margin-top: 20px;
-  padding: 40px 0;
+  margin-bottom: -120px;
+  margin-top: 0px;
+  padding: 90.5px 0;
   text-decoration: none;
   color: #ffffff;
   font-weight: 600;

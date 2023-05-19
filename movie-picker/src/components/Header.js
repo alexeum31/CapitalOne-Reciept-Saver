@@ -28,7 +28,8 @@ const Header = () => {
             <div className="links">
                 <Link to="/dashboard">Settings</Link>
             </div>
-            <div className="dashboard-icon-1"></div>
+            <div className="dashboard-icon-1">
+            </div>
             <div className="keyboard-arrow-down-icon-1"></div>
             <div className="horizontal-line-2"></div>
             <div className="settings-applications-icon-2"></div>

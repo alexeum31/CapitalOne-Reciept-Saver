@@ -53,11 +53,13 @@ const Dashboard = () => {
     //         body: JSON.stringify(newMovie)
     //     }).then(navigate("../", ({replace: true})))
     // }
-
+    // <img src="logoreal.png" class="img" />
     return (
         <div className="rectangle-25">
             <label className="welcome-back-user">Welcome Back, User!</label>            <p clasName="circle-1"></p>
-            <div className="rectangle-5">Total Receipts</div>
+            <div className="rectangle-5">Total Receipts
+            <img src="right-arrow.png" className="arrow-image" alt="Arrow" />
+            </div>
             <div className="rectangle-17"></div>
             <div className="rectangle-22"></div>
             <div className="rectangle-18"></div>

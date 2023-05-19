@@ -28,14 +28,21 @@ input {
 	height: 230px;
 	top: 150%;
 	left: 13.4%;
-	background: #202123;
+	background: #242425;
 	border-radius: 34px 34px 34px 34px;
 	color: white;
 	font-family: "Arial", sans-serif;
 	font-size: 30px;
-	text-align: start;
 	margin-left: 20px;
 	padding-left: 20px;
+	text-align: center;
+  }
+  .arrow-image {
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	width: 20px; 
+	height: 20px;
   }
  
 
