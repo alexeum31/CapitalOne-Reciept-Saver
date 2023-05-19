@@ -1,8 +1,9 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Catalog from './components/Catalog';
-import PickMovie from './components/PickMovie';
-import AddMovie from './components/AddMovie';
+// import PickMovie from './components/PickMovie';
+import Dashboard from './components/Dashboard';
 import Header from './components/Header';
+import Receipt from './components/Receipt';
 import './App.css';
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
         <Header/>
         <Routes>
           <Route path="/" element={<Catalog/>}/>
-          <Route path="/movie" element={<PickMovie/>}/>
-          <Route path="/add" element={<AddMovie/>}/>
+          <Route path="/receipts" element={<Receipt/>}/>
+          <Route path="/dashboard" element={<Dashboard/>}/>
         </Routes>
       </Router>
     </div>
