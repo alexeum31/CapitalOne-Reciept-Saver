@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import Movie from './Movie';
+import Receipt from './Receipt';
 import './PickMovie.css'
 
 const PickMovie = () => {

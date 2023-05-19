@@ -1,15 +1,79 @@
 .header {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-evenly;
-  height: 100px;
-  background-color: #1d49ae;
-  color: white;
+  width: 160px;
+  height: 100vh;
+  padding: 20px;
+  background-color: #083c5c;
+  color: #f3f3f3;
+
+}
+.user-name {
+  position:absolute;
+	top: 10%;
+  left: 85%;
+	color: #444444;
+	font-family: "Arial", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+  transform: translate( 70%, -50%);
+}
+.circle-1 {
+	width: 35px;
+	height: 35px;
+  top: 10%;
+  left: 85%;
+	background: #d8d9db;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+  transform: translate( 70%, -50%);
+}
+.search-bar {
+  width: 30%;
+	min-width: 400px;
+  height: 30px;
+  padding: 8px 8px 8px 42px;
+  background: #f3f3f3;
+  color: #aaaaaa;
+  border-radius: 34px;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: left;
+  position: absolute;
+  top: 10%;
+  left: 65%;
+  transform: translate( -60%, -50%);
+}
+.search-icon-1 {
+	width: 30px;
+	height: 28px;
+	background: #202123;
+}
+.rectangle-25 {
+	width: calc(100% - 160px);
+	height: 140px;
+	padding: 8px;
+	background: #ffffffff;
+	position: absolute;
+	top: 0;
+	left: 160px;
+  z-index: -1;
+} 
+
+body {
+  background-color: #c5c2c2; 
+}
+.logo { 
+  font-family: 'Belleza', sans-serif;
+  height: 5vh;
 }
 
-.logo {
-  font-family: 'Belleza', sans-serif;
-}
+
 
 .links {
   display: flex;
@@ -21,6 +85,33 @@
 a {
   margin: 0 20px;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-weight: 600;
+}
+.paragraph-1 {
+	width: 111px;
+	height: 28px;
+	color: #ffffff;
+	font-family: "Source Sans 3";
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: left;
+}
+.dashboard-icon-1 {
+	width: 24px;
+	height: 24px;
+	background: #ffffff;
+}
+.keyboard-arrow-down-icon-1 {
+	width: 20px;
+	height: 20px;
+	background: #ffffff;
+}
+.rectangle-7 {
+	width: 5px;
+	height: 28px;
+	padding: 8px 8px 8px 8px;
+	background: #ffffff;
+	border-radius: 0px 8px 8px 0px;
 }

@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import Movie from './Movie'
+import Receipt from './Receipt'
 import './Catalog.css'
 
 const Catalog = () => {
@@ -13,8 +13,8 @@ const Catalog = () => {
         <div>
             <h1 className="title">Catalog</h1>
             <div className="movies">
-                {data.map((movie) => (
-                    <Movie name={movie.name} genre={movie.genre} image={movie.img}/>
+                {data.map((receipt) => (
+                    <Receipt name={receipt.id} genre={receipt.store} image={receipt.img}/>
                 ))}
             </div>
         </div>
