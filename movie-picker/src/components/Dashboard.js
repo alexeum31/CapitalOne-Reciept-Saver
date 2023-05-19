@@ -56,7 +56,7 @@ const Dashboard = () => {
 
     return (
         <div className="rectangle-25">
-            <label className="welcome-back-user">Welcome Back User!</label>            <p clasName="circle-1"></p>
+            <label className="welcome-back-user">Welcome Back, User!</label>            <p clasName="circle-1"></p>
             <label className="rectangle-5">Total Receipts</label>
             <div className="rectangle-17"></div>
             <div className="rectangle-22"></div>

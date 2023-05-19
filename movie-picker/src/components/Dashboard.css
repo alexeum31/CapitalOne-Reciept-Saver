@@ -25,21 +25,20 @@ input {
   .rectangle-5 {
 	position: absolute;
 	width: 35%;
-	height: 210px;
+	height: 230px;
 	top: 150%;
-	left: 15%;
+	left: 13.4%;
 	background: #202123;
 	border-radius: 34px 34px 34px 34px;
-  }
-  
-  .rectangle-5 .text {
 	color: white;
-	font-family: "Source Sans 3";
+	font-family: "Arial", sans-serif;
 	font-size: 30px;
-	text-align: left;
+	text-align: start;
 	margin-left: 20px;
+	padding-left: 20px;
   }
-  
+
+
 .rectangle-17 {
     position: absolute;
 	width: 35%;
